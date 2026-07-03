@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "api:dev": "node --watch api/server.js",
+    "api:dev": "node --watch server/server.js",
     "dev:all": "concurrently -n web,api -c blue,green \"npm:dev\" \"npm:api:dev\""
   },
   "dependencies": {
